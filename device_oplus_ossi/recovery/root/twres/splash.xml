@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<recovery>
+	<text_box>
+		<box x="0" y="0" w="%screen_width%" h="%screen_height%" color="#000000FF" />
+	</text_box>
+</recovery>

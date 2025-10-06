@@ -1,0 +1,15 @@
+# Gatekeeper HALs
+vendor/lib64/hw/gatekeeper.trustonic.so
+vendor/lib64/hw/gatekeeper.default.so
+vendor/lib/hw/gatekeeper.trustonic.so
+vendor/lib/hw/gatekeeper.default.so
+
+# Keystore2
+system/bin/keystore2
+system/bin/keystore_cli_v2
+system/etc/init/keystore2.rc
+
+# Gatekeeper daemon
+system/bin/gatekeeperd
+system/etc/init/gatekeeperd.rc
+

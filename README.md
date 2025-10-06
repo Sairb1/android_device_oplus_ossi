@@ -4,15 +4,18 @@ This repository contains the device and vendor configuration files for building 
 
 The device tree and vendor files were generated using tools like `aosptgen` and `dumpyara`.
 
-If you need any other help- Join Device Group
-t.me/realme11x
+Need Help?
+
+If you encounter any issues, have questions, or wish to contribute to the development of custom recovery for this device, please contact us:
+
+Telegram: t.me/realme 11x official
 
 ## Device Specifications & Versioning
 
 | Feature | Details |
 | :--- | :--- |
 | **Device Codename** | `ossi` |
-| **Model Name** | Realme Narzo 60X | RMX3782 | RE5C6CL1
+| **Model Name** | Realme Narzo 60X | RMX3782 | RE5C6CL1 |
 | **Platform** | MediaTek Dimensity 6100+ (MT6835) |
 | **Android Version Base** | 14 (RUI 5) |
 | **Security Patch Level** | October 5, 2024 |
@@ -51,4 +54,5 @@ lunch twrp_ossi-userdebug
 
 To build the final recovery image (required for A/B devices):
 make vendorbootimage -j$(nproc)
+
 
